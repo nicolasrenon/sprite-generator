@@ -1,0 +1,6 @@
+@import "compass/utilities/sprites";
+
+$glyphs-sprite-dimensions: true;
+$glyphs-layout: 'smart';
+@import "glyphs/*.png";
+@include all-glyphs-sprites;
